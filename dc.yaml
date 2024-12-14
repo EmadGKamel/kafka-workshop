@@ -168,7 +168,7 @@ services:
     container_name: mysql2
     hostname: mysql
     restart: always
-    platform: linux/arm64/v8
+    platform: linux/amd64/v8
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: mydb
